@@ -2,6 +2,7 @@
     --heading-font-family: 'Playfair Display', serif;
     --p-font-family: 'Poppins', sans-serif;
     --branding-color: #6C63FF;
+    --sec-color: #F9F7FE;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -12,6 +13,11 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
     font-size: 96px;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 64px;
 }
 
 body{
@@ -20,12 +26,8 @@ body{
 
 p{
     font-weight: normal;
-}
-
-.hero{
-    background-color: #F9F7FE;
-    text-align: center;
-    padding: 160px 20px;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .hero p{
@@ -49,4 +51,37 @@ p{
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
+}
+
+.btn-branding-outline{
+    border-radius: 4px;
+    border: 1px solid var(--branding-color);
+    color: var(--branding-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+}
+
+.prj-desciption{
+    padding: 120px 60px;
+}
+
+@media (max-width: 900px){
+    .prj-desciption{
+        padding: 0;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 44px;
+        line-height: 1.5;
+    }
+
+    .hero{
+        background: var(--sec-color);padding: 80px 20px;
+    }
+
+    h2{
+        font-size: 44px;
+    }
 }
