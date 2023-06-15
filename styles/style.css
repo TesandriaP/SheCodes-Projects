@@ -86,6 +86,19 @@ p{
     line-height: 21px;
 }
 
+.c-content{
+    font-size: 64px;
+    line-height: 85px;
+}
+
+.c-content h2{
+    font-size: 36px;
+}
+
+.c-content p{
+    
+}
+
 .btn-branding{
     background: var(--branding-color);
     border-radius: 4px;
