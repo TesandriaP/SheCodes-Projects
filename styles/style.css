@@ -3,6 +3,7 @@
     --p-font-family: 'Poppins', sans-serif;
     --branding-color: #6C63FF;
     --sec-color: #F9F7FE;
+    --heading-color: #272142;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -44,7 +45,7 @@ p{
     font-family: var(--p-font-family);
     font-weight: bold;
     margin: 0;
-    color: #272142;
+    color: var(--heading-color);
 }
 
 .hero h2{
@@ -64,7 +65,7 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: #272142;
+    color: var(--heading-color);
     transition: all 100ms ease-in-out;
 }
 
@@ -105,7 +106,7 @@ nav li{
 }
 
 .w-content h1{
-    font-size: 64px;
+    font-size: 51px;
     line-height: 85px;
 }
 
